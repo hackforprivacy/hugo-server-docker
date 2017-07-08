@@ -5,4 +5,4 @@ cd $(dirname $0)/..
 docker login -u "$DOCKER_USER" -p "$DOCKER_PASSWORD"
 
 . auto/build
-docker push pamrucinque/hugo
+docker push ${IMAGE_TAG}
