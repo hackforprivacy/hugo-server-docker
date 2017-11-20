@@ -11,4 +11,4 @@ RUN wget "https://github.com/spf13/hugo/releases/download/v"$HUGO_VERSION"/"$DOW
 
 RUN tar xvzf $DOWNLOAD_FILE_NAME
 
-RUN cp $EXECUTABLE_NAME/$EXECUTABLE_NAME /usr/bin/
+RUN cp $EXECUTABLE_NAME/$EXECUTABLE_NAME /usr/bin/hugo

@@ -23,6 +23,6 @@ A Docker Image for [Hugo Server](https://gohugo.io/).
 
 ### Publish Image
 
-  `$ DOCKER_USER=${USERNAME} DOCKER_PASSWORD=${PASSWORD} auto/publish`
+  `$ auto/publish`
 
-  Publishes the image to Dockerhub.
+  Prompts for docker login and publishes the image to Dockerhub.
