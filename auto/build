@@ -3,6 +3,8 @@ set -e -u
 
 HUGO_VERSION=0.18.1
 DOWNLOAD_FILE_NAME=hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
+EXECUTABLE_NAME=hugo_${HUGO_VERSION}_linux_amd64
+
 export IMAGE_TAG=hackforprivacy/hugo
 
 docker build --pull \
