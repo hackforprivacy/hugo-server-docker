@@ -1,6 +1,6 @@
 FROM ubuntu:trusty
 ARG  HUGO_VERSION=0.18.1
-ARG  DOWNLOAD_FILE_NAME=hugo_0.18.1_Linux-64bit.tgz
+ARG  DOWNLOAD_FILE_NAME=hugo_0.18.1_Linux-64bit.tar.gz
 
 RUN  apt-get update \
   && apt-get install -y wget \

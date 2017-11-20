@@ -2,10 +2,11 @@
 set -e -u
 
 HUGO_VERSION=0.18.1
-DOWNLOAD_FILE_NAME=hugo_${HUGO_VERSION}_Linux-64bit.tgz
-export IMAGE_TAG=pamrucinque/hugo
+DOWNLOAD_FILE_NAME=hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
+export IMAGE_TAG=hackforprivacy/hugo
 
 docker build --pull \
   --build-arg HUGO_VERSION=${HUGO_VERSION} \
   --build-arg DOWNLOAD_FILE_NAME=${DOWNLOAD_FILE_NAME} \
   -t ${IMAGE_TAG} .
+
